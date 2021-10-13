@@ -17,8 +17,8 @@ setup(
     package_dir={NAME: NAME},
     package_data={NAME: ['yara_rules/*']},
     install_requires=[
-        'common_analysis_base @ git+https://github.com/mass-project/common_analysis_base.git',
-        'common_helper_files @ git+https://github.com/fkie-cad/common_helper_files.git',
+        'common_analysis_base @ git+https://github.com.cnpmjs.org/mass-project/common_analysis_base.git',
+        'common_helper_files @ git+https://github.com.cnpmjs.org/fkie-cad/common_helper_files.git',
         'yara-python >= 3.5'
     ],
     extras_require={
